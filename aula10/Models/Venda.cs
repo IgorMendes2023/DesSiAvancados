@@ -27,7 +27,7 @@ public class Venda{
         var livrosCaros = Livros.Where(l => l.Preco > precoMinimo).OrderBy(l => l.Nome).ToList();
         if(livrosCaros.Count > 0){
             Console.WriteLine($"Livros com preço maior que {precoMinimo:C}");
-            livrosCaros.foreach(l=> Console.WriteLine(l));
+            livrosCaros.ForEach(l=> Console.WriteLine(l));
         }else{
             Console.WriteLine($"Nenhum livro com o preço maior que {precoMinimo:C}");
         }

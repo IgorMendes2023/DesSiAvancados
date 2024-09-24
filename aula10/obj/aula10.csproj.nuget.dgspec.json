@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/workspaces/DesSiAvancados/aula10/aula10/aula10.csproj": {}
+    "/workspaces/DesSiAvancados/aula10/aula10.csproj": {}
   },
   "projects": {
-    "/workspaces/DesSiAvancados/aula10/aula10/aula10.csproj": {
+    "/workspaces/DesSiAvancados/aula10/aula10.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/workspaces/DesSiAvancados/aula10/aula10/aula10.csproj",
+        "projectUniqueName": "/workspaces/DesSiAvancados/aula10/aula10.csproj",
         "projectName": "aula10",
-        "projectPath": "/workspaces/DesSiAvancados/aula10/aula10/aula10.csproj",
+        "projectPath": "/workspaces/DesSiAvancados/aula10/aula10.csproj",
         "packagesPath": "/home/codespace/.nuget/packages/",
-        "outputPath": "/workspaces/DesSiAvancados/aula10/aula10/obj/",
+        "outputPath": "/workspaces/DesSiAvancados/aula10/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/home/codespace/.nuget/NuGet/NuGet.Config"
@@ -42,6 +42,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,4 +1,4 @@
-namespace aula10.Models
+namespace aula10.Models{
 public class Livro{
     public int Id { get; set;}
     public string Nome { get; set;}
@@ -12,4 +12,5 @@ public class Livro{
     public override string ToString(){
         return $"Nome: {Nome}, Preço: {Preco:C}";
     }
+}
 }
